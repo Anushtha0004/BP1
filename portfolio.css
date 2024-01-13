@@ -1,0 +1,150 @@
+body,h1,h2,h3,p{
+    margin: 0;
+    padding: 0;
+}
+body{
+  font-family: montserret;
+}
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;   
+}
+#left{  
+    width: 100%;
+}
+#b1{
+    float: left;
+}
+#about{
+    background-color: lightcoral;
+}
+#b1{    
+   margin-left: 20px;
+}
+.H:hover{
+    color: blueviolet;
+    background-color:lightseagreen;
+}
+.A:hover{
+    color: blueviolet;
+    background-color: brown;  
+} 
+.B:hover{
+    color: blueviolet;
+    background-color:lightslategray;  
+}
+.C:hover{
+    color: blueviolet;
+    background-color: yellow;
+    padding: 1px;
+}
+#home{
+    background-color: lightblue;
+    height: 100vh;  
+}
+h3{
+    padding: 30px;
+    width: 50%;
+}
+.projects img{
+    padding: 20px;
+}
+a>img{
+     position: relative;
+     float: right;
+      top: 0%;
+      border-radius: 50%;
+     height: 500px;
+      padding: 10px;    
+}
+  #right{
+     float: right; 
+     position: relative;
+       top:12%; 
+       overflow-x: hidden;
+      transform: translateY(-80%); 
+       width: 50%;  
+ } 
+ .box{ 
+     display: flex; 
+     align-items: center;
+     justify-content: space-between;
+     height: 60%;
+     width: 80%;  
+     border-top: 2px solid black;
+}   
+h1{
+    font-size: 50px;
+    padding: 20px;
+}
+h2{
+    font-size: 30px;
+    padding: 10px;
+}
+h4{
+    font-size: 35px;
+    padding: 20px;
+}
+#b1:hover{
+    color: blueviolet;
+    background-color:lightseagreen;
+    padding-left: 10px;   
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    margin-right: 10px; 
+}
+nav a {
+    color: #fff;
+    margin: 40px;
+}
+section{
+    margin: 0px;
+    height: 100vh;
+    font-size: 30px;
+}
+#projects{
+    background-color: lightslategray;
+}
+.projects h3{
+    padding: 20px;
+    font-size: 30px;
+}
+#projects h2{
+    padding: 20px;
+    font-size: 40px;
+}
+p{
+    padding: 30px;
+}
+h5{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+#contact{
+    padding-bottom:20px;
+    text-align: center; 
+    background-color:lightgoldenrodyellow ;
+}
+#contact h2{
+    padding: 30px;
+    font-size: 60px;
+}
+#contact p{
+    padding: 10px;
+    font-size: 40px;
+}
+ #contact img{
+    width: 40px;
+    height: 40px; 
+}
+footer{
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+}
